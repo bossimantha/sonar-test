@@ -35,4 +35,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=bossimantha_sonar-test_5dae15cb-2b6d-45bd-b4f5-9af064356ab6 -Dsonar.projectName='sonar-test'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=bossimantha_sonar-test_32ed8af6-9113-4113-876a-71775f7cd7dd -Dsonar.projectName='sonar-test'
